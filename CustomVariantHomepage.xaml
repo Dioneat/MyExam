@@ -1,0 +1,25 @@
+﻿<Page x:Class="MyExamApp.Pages.Subjects.CustomVariantHomepage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyExamApp.Pages.Subjects"
+      mc:Ignorable="d" 
+      d:DesignHeight="973"
+      d:DesignWidth="1750"
+      Title="CustomVariantHomepage">
+    
+    <Grid Background="White">
+        
+            <Menu BorderBrush="White" Background="White" BorderThickness="0.7" Margin="0,0,0,-11" Name="CustomSubButtons" Visibility="Hidden">
+                <Button Content="" Width="138" Height="26" Click="FirstBtn_Click" Name="FirstBtn"/>
+                <Button Content="" Width="138" Height="26" Click="SecondBtn_Click" Name="SecondBtn"/>
+            </Menu>
+        
+        <Label Content="Тренировочные материалы" BorderBrush="#006FFD" BorderThickness="0,0,0,6"  Name="LabelVar" HorizontalAlignment="Left" Height="45" Margin="25,38,0,0" FontSize="20" VerticalAlignment="Top" Width="564" FontStyle="Italic"/>
+        <Menu Background="White"  BorderBrush="White" BorderThickness="0.7" Name="ButMenu" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="25,88,0,0" VerticalAlignment="Top" Width="1684">
+
+        </Menu>
+        <Frame HorizontalAlignment="Left" Height="772" Margin="0,193,0,0" VerticalAlignment="Top" Width="1742" Name="Frame"/>
+    </Grid>
+</Page>

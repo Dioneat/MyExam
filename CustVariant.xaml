@@ -1,0 +1,23 @@
+﻿<Page x:Class="MyExamApp.Pages.Subjects.CustVariant"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyExamApp.Pages.Subjects"
+      mc:Ignorable="d" 
+      d:DesignHeight="772" d:DesignWidth="1742"
+      Title="CustomVariant">
+
+    <Grid Name="HeadGrid">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <WrapPanel Name="WrapVariant" Height="Auto" Width="Auto">
+                <Label Content="Времени осталось:" FontSize="15"></Label>
+                <TextBlock Height="30" Width="100" Padding="0, 5" Name="TimeLeft" FontSize="15"></TextBlock>
+                <Label Width="1463"/>
+                <Label Content="Времени прошло:" FontSize="15" Height="30"></Label>
+                <TextBlock Height="30" Width="100" Name="TimePassed" Padding="0, 5" FontSize="15"></TextBlock>
+
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
